@@ -86,7 +86,7 @@ document.getElementsByClassName('fa-angle-right')[0].addEventListener('click', f
     document.getElementsByClassName('price')[0].innerHTML = `${images_dt[(index / 310)].price} <sup> <del>${images_dt[(index / 310)].MRP} </del> </sup>`;
     document.getElementById('calorie').innerText = images_dt[(index / 310)].calorie;
     document.getElementById('fat').innerText = images_dt[(index / 310)].fat;
-    document.getElementById('protein').innerText = images_dt[(index / 310)].protein;
+    document.getElementById('Protein').innerText = images_dt[(index / 310)].protein;
     icon_off();
     document.getElementsByClassName('pagi_img')[index / 310].style.transforn = "scale(1.1)";
     document.getElementsByClassName('pagi_img')[index / 310].style.opacity = 1;
@@ -104,7 +104,7 @@ document.getElementsByClassName('fa-solid fa-angle-left')[0].addEventListener('c
     document.getElementsByClassName('price')[0].innerHTML = `${images_dt[(index / 310)].price} <sup> <del>${images_dt[(index / 310)].MRP} </del> </sup>`;
     document.getElementById('calorie').innerText = images_dt[(index / 310)].calorie;
     document.getElementById('fat').innerText = images_dt[(index / 310)].fat;
-    document.getElementById('protein').innerText = images_dt[(index / 310)].protein;
+    document.getElementById('Protein').innerText = images_dt[(index / 310)].protein;
     icon_off();
     document.getElementsByClassName('pagi_img')[index / 310].style.transforn = "scale(1.1)";
     document.getElementsByClassName('pagi_img')[index / 310].style.opacity = 1;
@@ -120,7 +120,7 @@ Array.from(document.getElementsByClassName('pagi_img')).forEach(function (el, i)
         document.getElementsByClassName('price')[0].innerHTML = `${images_dt[(index / 310)].price} <sup> <del>${images_dt[(index / 310)].MRP} </del> </sup>`;
         document.getElementById('calorie').innerText = images_dt[(index / 310)].calorie;
         document.getElementById('fat').innerText = images_dt[(index / 310)].fat;
-        document.getElementById('protein').innerText = images_dt[(index / 310)].protein;
+        document.getElementById('Protein').innerText = images_dt[(index / 310)].protein;
         icon_off();
         document.getElementsByClassName('pagi_img')[index / 310].style.transforn = "scale(1.1)";
         document.getElementsByClassName('pagi_img')[index / 310].style.opacity = 1;
